@@ -21,7 +21,7 @@ Which tag has the following text? - *Automatically remove the container when it 
 - `--rm`
 
 ### My Answer: '--rm'
-![Alt text](image.png)
+![Alt text](Module 1: Containerization and Infrastructure as Code/homework/images/image.png)
 
 ## Question 2. Understanding docker first run 
 
