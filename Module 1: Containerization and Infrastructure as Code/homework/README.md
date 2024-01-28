@@ -21,7 +21,7 @@ Which tag has the following text? - *Automatically remove the container when it 
 - `--rm`
 
 ### My Answer: '--rm'
-![Alt text](Module 1: Containerization and Infrastructure as Code/homework/images/image.png)
+![Alt text](images/image.png)
 
 ## Question 2. Understanding docker first run 
 
@@ -36,7 +36,7 @@ What is version of the package *wheel* ?
 - 58.1.0
 
 ### My Answer: '0.42.0'
-![Alt text](image-1.png)
+![Alt text](images/image-1.png)
 
 # Prepare Postgres
 
@@ -51,7 +51,7 @@ You will also need the dataset with zones:
 
 Download this data and put it into Postgres (with jupyter notebooks or with a pipeline)
 
-### My Answer: [here](url_here)
+### My Answer: [jupyter notebook](posgresql/upload-data-hw.ipynb)
 
 ## Question 3. Count records 
 
@@ -66,7 +66,7 @@ Remember that `lpep_pickup_datetime` and `lpep_dropoff_datetime` columns are in 
 - 15859
 - 89009
 
-### My Answer: [15612](url_here)
+### My Answer: [15612](posgresql/Question3.sql)
 
 ## Question 4. Largest trip for each day
 
@@ -78,7 +78,7 @@ Use the pick up time for your calculations.
 - 2019-09-26
 - 2019-09-21
 
-### My Answer: [2019-09-26](url_here)
+### My Answer: [2019-09-26](posgresql/Question4.sql)
 
 ## Question 5. Three biggest pick up Boroughs
 
@@ -91,7 +91,7 @@ Which were the 3 pick up Boroughs that had a sum of total_amount superior to 500
 - "Bronx" "Manhattan" "Queens" 
 - "Brooklyn" "Queens" "Staten Island"
 
-### My Answer: ["Brooklyn" "Manhattan" "Queens"](url_here)
+### My Answer: ["Brooklyn" "Manhattan" "Queens"](posgresql/Question5.sql)
 
 ## Question 6. Largest tip
 
@@ -105,7 +105,7 @@ Note: it's not a typo, it's `tip` , not `trip`
 - JFK Airport
 - Long Island City/Queens Plaza
 
-### My Answer: [JFK Airport](url_here)
+### My Answer: [JFK Airport](posgresql/Question6.sql)
 
 ## Terraform
 
