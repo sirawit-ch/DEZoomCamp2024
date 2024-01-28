@@ -1,0 +1,3 @@
+SELECT lpep_pickup_datetime, trip_distance
+FROM green_taxi_data
+ORDER BY trip_distance DESC
