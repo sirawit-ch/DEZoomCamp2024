@@ -51,7 +51,7 @@ You will also need the dataset with zones:
 
 Download this data and put it into Postgres (with jupyter notebooks or with a pipeline)
 
-### My Answer: [blue_text](url_here)
+### My Answer: [here](url_here)
 
 ## Question 3. Count records 
 
@@ -66,6 +66,8 @@ Remember that `lpep_pickup_datetime` and `lpep_dropoff_datetime` columns are in 
 - 15859
 - 89009
 
+### My Answer: [15612](url_here)
+
 ## Question 4. Largest trip for each day
 
 Which was the pick up day with the largest trip distance
@@ -76,6 +78,7 @@ Use the pick up time for your calculations.
 - 2019-09-26
 - 2019-09-21
 
+### My Answer: [2019-09-26](url_here)
 
 ## Question 5. Three biggest pick up Boroughs
 
@@ -88,6 +91,7 @@ Which were the 3 pick up Boroughs that had a sum of total_amount superior to 500
 - "Bronx" "Manhattan" "Queens" 
 - "Brooklyn" "Queens" "Staten Island"
 
+### My Answer: ["Brooklyn" "Manhattan" "Queens"](url_here)
 
 ## Question 6. Largest tip
 
@@ -101,7 +105,7 @@ Note: it's not a typo, it's `tip` , not `trip`
 - JFK Airport
 - Long Island City/Queens Plaza
 
-
+### My Answer: [JFK Airport](url_here)
 
 ## Terraform
 
@@ -113,7 +117,6 @@ Copy the files from the course repo
 
 Modify the files as necessary to create a GCP Bucket and Big Query Dataset.
 
-
 ## Question 7. Creating Resources
 
 After updating the main.tf and variable.tf files run:
@@ -123,11 +126,3 @@ terraform apply
 ```
 
 Paste the output of this command into the homework submission form.
-
-
-## Submitting the solutions
-
-* Form for submitting: https://courses.datatalks.club/de-zoomcamp-2024/homework/hw01
-* You can submit your homework multiple times. In this case, only the last submission will be used. 
-
-Deadline: 29 January, 23:00 CET
